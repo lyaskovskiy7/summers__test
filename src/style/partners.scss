@@ -1,0 +1,50 @@
+.backg-partners {
+    width: 100%;
+    height: 489px;
+    background: rgba(0, 0, 0, .5);
+    position: relative;
+
+    @include md-block() {
+        height: 720px;
+    }
+
+    @include xs-block() {
+        height: 920px;
+    }
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url('../src/img/backg-partners.png') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.partners {
+    @include wrapper();
+
+    &__wrapper-img {
+        padding-top: 140px;
+        @include row-flex();
+
+        @include xs-block() {
+            padding-top: 70px;
+        }
+    }
+
+    &__img {
+        @include col();
+        @include size(3);
+        @include size-md(6);
+        @include size-xs(12);
+        align-self: center;
+        text-align: center;
+        margin-bottom: 50px;
+
+
+    }
+}

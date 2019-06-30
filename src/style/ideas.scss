@@ -1,0 +1,40 @@
+.wrapper-ideas {
+    max-width: 100%;
+    background: #fbfaf8;
+}
+
+.ideas {
+    max-width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -5px;
+
+    &__wrapper-text{
+        padding: 0 15px;
+    }
+
+    &__title {
+        margin: 83px 0 23px;
+        display: block;
+        color: #555555;
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    &__text {
+        display: block;
+        max-width: 757px;
+        margin: 0 auto;
+        color: #8c8c8c;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        padding-bottom: 40px;
+    }
+
+    &__img{
+        
+    }
+}

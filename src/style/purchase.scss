@@ -1,0 +1,48 @@
+.wrapper-purchase {
+    max-width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+
+    @include sm-block{
+        height: 320px;
+    }
+}
+
+.purchase {
+    @include wrapper();
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    @include sm-block{
+        justify-content: center;
+        height: 320px;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 8px;
+        margin-right: 15px;
+    }
+
+    &__text {
+        color: #615855;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    &__btn {
+        width: 170px;
+        height: 50px;
+        text-decoration: none;
+        line-height: 50px;
+        text-align: center;
+    }
+
+}

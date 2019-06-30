@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../src/icon/fonts/icomoon.eot?33cs5f');
+  src:  url('../src/icon/fonts/icomoon.eot?33cs5f#iefix') format('embedded-opentype'),
+    url('../src/icon/fonts/icomoon.ttf?33cs5f') format('truetype'),
+    url('../src/icon/fonts/icomoon.woff?33cs5f') format('woff'),
+    url('../src/icon/fonts/icomoon.svg?33cs5f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="svg"], [class*=" svg"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.svgblog .path1:before {
+  content: "\e911";
+  color: rgb(0, 0, 0);
+}
+.svgblog .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(199, 178, 153);
+}
+.svgcoffe .path1:before {
+  content: "\e913";
+  color: rgb(0, 0, 0);
+}
+.svgcoffe .path2:before {
+  content: "\e914";
+  margin-left: -1.0908203125em;
+  color: rgb(199, 178, 153);
+}
+.svglikes .path1:before {
+  content: "\e915";
+  color: rgb(0, 0, 0);
+}
+.svglikes .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(199, 178, 153);
+}
+.svguser .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+.svguser .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(199, 178, 153);
+}
+.svgWelaunched .path1:before {
+  content: "\e919";
+  color: rgb(0, 0, 0);
+}
+.svgWelaunched .path2:before {
+  content: "\e91a";
+  margin-left: -1.2275390625em;
+  color: rgb(199, 178, 153);
+}
+.svglink .path1:before {
+  content: "\e90d";
+  color: rgb(0, 0, 0);
+}
+.svglink .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(199, 178, 153);
+}
+.svglupa .path1:before {
+  content: "\e90f";
+  color: rgb(0, 0, 0);
+}
+.svglupa .path2:before {
+  content: "\e910";
+  margin-left: -1.0400390625em;
+  color: rgb(255, 255, 255);
+}
+.svgmenu:before {
+  content: "\e90c";
+}
+.svgnext .path1:before {
+  content: "\e908";
+  color: rgb(0, 0, 0);
+}
+.svgnext .path2:before {
+  content: "\e909";
+  margin-left: -0.5478515625em;
+  color: rgb(255, 255, 255);
+}
+.svgprev .path1:before {
+  content: "\e90a";
+  color: rgb(0, 0, 0);
+}
+.svgprev .path2:before {
+  content: "\e90b";
+  margin-left: -0.5478515625em;
+  color: rgb(255, 255, 255);
+}
+.svgIcon-1 .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.svgIcon-1 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(85, 85, 85);
+}
+.svgIcon-2 .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.svgIcon-2 .path2:before {
+  content: "\e903";
+  margin-left: -1.099609375em;
+  color: rgb(85, 85, 85);
+}
+.svgIcon-3 .path1:before {
+  content: "\e904";
+  color: rgb(0, 0, 0);
+}
+.svgIcon-3 .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(85, 85, 85);
+}
+.svgIcon-4 .path1:before {
+  content: "\e906";
+  color: rgb(0, 0, 0);
+}
+.svgIcon-4 .path2:before {
+  content: "\e907";
+  margin-left: -1.4443359375em;
+  color: rgb(85, 85, 85);
+}

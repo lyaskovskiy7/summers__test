@@ -1,0 +1,87 @@
+.services {
+    @include row-flex;
+    margin-top: 86px;
+    margin-bottom: 80px;
+
+    @include md-block(){
+        margin-top: 26px;
+    }
+
+    &__item {
+        @include col;
+        @include size(3);
+        @include size-md(6);
+        @include size-xs(12);
+        text-align: center;
+        @include md-block(){
+            margin-top: 60px;
+        }
+    }
+
+    &__icon {
+        font-size: 50px;
+    }
+
+    &__title {
+        display: block;
+        text-decoration: none;
+        color: #555555;
+        font-family: "Raleway";
+        font-size: 22px;
+        font-weight: 600;
+        margin: 29px 0 19px;
+    }
+
+    &__text {
+        color: #8c8c8c;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    &__line {
+        display: block;
+        width: 70px;
+        height: 3px;
+        background: #f1eee9;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+.svgIcon-1,
+.svgIcon-2,
+.path2:before {
+    color: #555555;
+}
+
+.svgIcon-1,
+.svgIcon-2,
+.path2:before {
+    color: #c7b299;
+}
+
+.services__item:hover .services__title {
+    color: #c7b299;
+}
+
+.services__item:hover .services__line {
+    background: #c7b299;
+}
+
+.services__item:hover .svgIcon-1 .path2:before {
+    color: #c7b299;
+}
+
+.services__item:hover .svgIcon-2 .path2:before {
+    color: #c7b299;
+}
+
+.services__item:hover .svgIcon-3 .path2:before {
+    color: #c7b299;
+}
+
+.services__item:hover .svgIcon-4 .path2:before {
+    color: #c7b299;
+}

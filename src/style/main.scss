@@ -1,0 +1,24 @@
+@import 'normalize.css';
+
+// fonts and icons
+@import '../fonts/stylesheet.css';
+@import '../icon/style.css';
+
+// slider
+@import 'owl.carousel.min.css';
+@import 'owl.theme.default.min.css';
+
+// grid
+@import 'smart-grid.scss';
+
+
+// main
+@import 'global.scss';
+@import 'header.scss';
+@import 'services.scss';
+@import 'ideas.scss';
+@import 'purchase.scss';
+@import 'about.scss';
+@import 'counters.scss';
+@import 'feature.scss';
+@import 'partners.scss';
