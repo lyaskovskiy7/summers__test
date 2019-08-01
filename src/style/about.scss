@@ -185,4 +185,8 @@
     @include md-block() {
         margin: 20px auto;
     }
+
+    &:hover{
+        color: #d9d9d9;
+    }
 }

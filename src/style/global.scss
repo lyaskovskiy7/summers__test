@@ -30,6 +30,10 @@ img{
     letter-spacing: .5px;
 }
 
+.btn:hover{
+    color: #d9d9d9;
+}
+
 .block{
     display: block!important;
 }
@@ -37,3 +41,24 @@ img{
 .color-purchase{
     color: #c7b299;
 }
+
+.test{
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    @include md-block(){
+        flex-wrap: wrap;
+    }
+}
+
+.op{
+    width: 25%;
+    border: 1px solid red;
+    box-sizing: border-box;
+  
+
+    @include md-block(){
+        width: 50%;
+    }
+}
+
